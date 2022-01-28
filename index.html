@@ -1,0 +1,268 @@
+<html>
+    <head>
+    <title>Champtop Enterprise</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div id="header" class="section">
+            <img src="3582794_0.png" height=600px>
+            
+        
+            <style>
+                h1 {
+    font-size: 40pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+    background-color: #f36f48;
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+            </style>
+
+        </div>
+
+        <div class="wrapper active-element">
+        <header class="main-header">
+            <nav>
+                <div class="masthead active-element">
+                    <h2><a href="#0">Champtop Enterprise</a></h2>
+                    <div id="menu-toggle" class="menu-toggle active-element">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>
+                </div>
+                <div class="main-nav-list active-element">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <br />
+                        <li><a href="newgallery.html">Gallery</a></li>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+            <div>
+                <script>
+                var menuToggle = document.querySelector("#menu-toggle");
+                var activeElements = document.querySelectorAll(".active-element");
+                var toggledMenu = menuToggle.addEventListener("click", function(){
+                     // forEach is not supported in IE11
+                  // activeElements.forEach(function(e){
+                  //     e.classList.toggle("active");
+                  // });
+                     for(var activated = 0; activated < activeElements.length; activated++){
+                          activeElements[activated].classList.toggle("active");
+                     }
+                })</script>
+        
+        </div>
+        <main class="main-contents">
+            
+            <p>
+                Hey! We are <strong>Champtop Enterprise</strong>is a full service building and civil engineering construction company. It was established in 1958 and has been quoted on the Nigerian Stock Exchange since 1978. The company has become one of the foremost building companies in Nigeria with presence across the geopolitical zones of the country.
+            </p>
+            <p class="quote">"keep trying till you get it done"</p>
+        </br>
+        <p><strong>My Skills</strong>
+            <ul>
+                <li>Pre -construction<br />
+                    <progress min="0" max="100" value="90"></progress>
+                </li>
+                <li>Design and Building <br />
+                <progress min="0" max="100" value="85"></progress>
+                </li>
+                <li>Project Management <br />
+                <progress min="0" max="100" value="70"></progress>
+                </li>
+                <li>Engineering ,procurement <br />
+                <progress min="0" max="100" value="65"></progress>
+                </li>
+                <li>Estimation<br />
+                    <progress min="0" max="100" value="50"></progress>
+                </li>
+                <li>Construction <br />
+                    <progress min="0" max="100" value="50"></progress>
+                </li>
+                <li>Management <br />
+                <progress min="0" max="100" value="50"></progress>
+                </li>
+            </ul>
+            <style>
+            li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 20%;
+    height: 20px;
+    color: #f36f48;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #f36f48;
+} 
+progress::-moz-progress-bar {
+    color: #f36f48;
+    background: #efefef;
+}   
+    </style>
+            </p>
+            <br />
+            <p>Our Working Schedule</p>
+
+                <table>
+                    <tr>
+                        <th>Day</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                    </tr>
+                    <tr>
+                        <td>8-8:30</td>
+                        <td class="selected">Design</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>9-10</td>
+                        <td></td>
+                        <td class="selected">Review</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1-1:30</td>
+                        <td></td>
+                        <td></td>
+                        <td class="selected">Construct</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3:45-5</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="selected">Manage</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>6-6:15</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="selected">Plan</td>
+                    </tr>
+                </table>
+                <style>
+                    table {
+    width: 35%;
+    font-size: 11pt;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+}
+                </style>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+               <p>
+                <!-- Contacts section start -->
+        <div class="body" id="contacts">
+            <h1><span>Follow US</span></h1>
+            <div>
+            <a href="https://instagram.com/champtop enterprise"><img src="instagram.jpg" /></a>
+             <a href="https://wa.me/+2349076244079"> <img src="whatsapp.png" ></a>
+         <a href="mailto:champtop enterprise@gmail.com"><img src="mail.png"/></a></div></div></p>
+        <!-- Contacts section end -->
+   
+   
+   
+   
+   
+   
+   
+    </main>
+        <footer class="main-footer active-element"><span class="copyright">&copy;2022 Champtop Enterprise </span></footer>
+
+    </div>
+</body>
+    </html>
+   
